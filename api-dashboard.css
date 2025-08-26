@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: gray;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #ff0000;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+#single-dog-container img,
+#single-cat-container img {
+    max-width: 300px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
