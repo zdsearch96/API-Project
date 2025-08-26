@@ -59,7 +59,7 @@ async function getExchangeRate() {
     exchangeRateContainer.innerHTML = `
         <h3>Exchange Rate (USD to EUR)</h3>
         <p>1 USD = ${data.conversion_rates.EUR} EUR</p>
-    `;
+    `;console.log(data);
 }
 getExchangeRate();
 
